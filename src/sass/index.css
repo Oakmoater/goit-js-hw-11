@@ -23,4 +23,8 @@
   background-image: url("../images/logo.png");
   background-size: cover;
   background-position: center;
+}
+
+.load-more {
+  display: none;
 }/*# sourceMappingURL=index.css.map */
