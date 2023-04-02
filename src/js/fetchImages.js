@@ -1,7 +1,8 @@
 import axios from 'axios';
 export async function getImages(requestValue, pageNumber) {
     const params = new URLSearchParams({
-        key: process.env.IMAGE_API_KEY,
+        key: '34826536-c17610f3e35e961c28d89bffe',
+        // key: process.env.IMAGE_API_KEY,
         q: requestValue,
         image_type: 'photo',
         orientation: 'horizontal',
