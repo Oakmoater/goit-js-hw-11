@@ -58,7 +58,7 @@ function renderGallery(hits) {
         return `
             <div class="photo-card">
                 <a class="link__photo-card" href="${largeImageURL}" >
-                    <img src="${webformatURL}" alt="${tags}" loading="lazy" />
+                    <img class="image__photo-card" src="${webformatURL}" alt="${tags}" loading="lazy" />
                 </a>
                 <div class="info">
                     <p class="info-item">
