@@ -1,7 +1,9 @@
 .search-form {
     position: fixed;
+    z-index: 99;
     left: 50%;
     top: 0;
+    padding: 20px 0;
     width: 100%;
     transform: translateX(-50%);
     display: flex;

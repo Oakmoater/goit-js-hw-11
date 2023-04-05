@@ -44,6 +44,10 @@ const fetchImages = (search, page) => getImages(search, page)
             Notiflix.Notify.failure('Sorry, there are no images matching your search query. Please try again.');
             return
         };
+        if (page > (Math.ceil(total / 40))) {
+            Notiflix.Notify.info("We're sorry, but you've reached the end of search results.");
+            return
+        }
         renderGallery(hits);
         Lightbox.refresh();
         updateButton();
